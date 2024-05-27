@@ -5,7 +5,7 @@ import ChallengesAndSolutions from "../components/pages/talent-Factory-for-corps
 import HeroSection from "../components/pages/talent-Factory-for-corps/HeroSection";
 import Outcomes from "../components/pages/talent-Factory-for-corps/Outcomes";
 
-function TalentFactoryForCorps() {
+function TalentFactory() {
   return (
     <>
       <HeroSection />
@@ -18,4 +18,4 @@ function TalentFactoryForCorps() {
   );
 }
 
-export default TalentFactoryForCorps;
+export default TalentFactory;

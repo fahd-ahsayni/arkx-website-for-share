@@ -6,7 +6,7 @@ import HeroSection from "../components/pages/talent-agency/HeroSection";
 import HowItWorks from "../components/pages/talent-agency/HowItWorks";
 import JoinUs from "../components/pages/talent-agency/JoinUs";
 
-const TalentAgency = () => {
+const TalentsAgency = () => {
   return (
     <>
       <HeroSection />
@@ -20,4 +20,4 @@ const TalentAgency = () => {
   );
 };
 
-export default TalentAgency;
+export default TalentsAgency;
