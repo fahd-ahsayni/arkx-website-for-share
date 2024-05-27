@@ -1,14 +1,14 @@
 import { Popover, PopoverButton, PopoverGroup } from "@headlessui/react";
 import { Bars3Icon } from "@heroicons/react/24/outline";
-import Services from "./navbar/Services";
-import Bootcamps from "./navbar/Bootcamps";
 import ResponsiveNavbar from "./navbar/ResponsiveNavbar";
 import { logoWihte } from "../../assets";
 import SimpleButton from "../elements/SimpleButton";
 import { Link, useLocation } from "react-router-dom";
+import ForTalents from "./navbar/ForTalents";
+import ForCompanies from "./navbar/ForCompanies";
+import WhyArkx from "./navbar/WhyArkx";
 
-
-export default function Navbar() {
+const Navbar = () => {
   const location = useLocation();
   const path = location.pathname;
 
@@ -46,28 +46,19 @@ export default function Navbar() {
             >
               About
             </Link>
-            <Services />
-            <Bootcamps />
+            <ForCompanies />
+            <ForTalents />
             <Link
-              to="#"
-              className="body-2 text-n-2 hover:text-white transition-colors"
-            >
-              Events
-            </Link>
-            <Link
-              to="/blog"
+              to="/resources"
               className={`body-2 hover:text-white transition-colors ${
-                path === "/blog" ? "text-white" : "text-n-2"
+                path == "/resources" ? "text-white" : "text-n-2"
               }`}
             >
-              Blog
+              Resources
             </Link>
           </PopoverGroup>
           <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
-            <SimpleButton
-              text="Embark with us"
-              className="bg-gradient-to-br from-color-9 to-[#ff8000] text-n-1"
-            />
+            <SimpleButton text="Get Started" />
           </div>
         </div>
       </div>
@@ -75,4 +66,6 @@ export default function Navbar() {
       <ResponsiveNavbar />
     </Popover>
   );
-}
+};
+
+export default Navbar;

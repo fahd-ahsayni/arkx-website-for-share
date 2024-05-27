@@ -8,13 +8,13 @@ export default {
     extend: {
       colors: {
         color: {
-          1: "#AC6AFF",
-          2: "#FFC876",
-          3: "#FF776F",
-          4: "#0F0D49",
-          5: "#02072A",
-          6: "#FF98E2",
-          7: "#2B1F83",
+          1: "#ec4899",
+          2: "#d946ef",
+          3: "#a855f7",
+          4: "#14b8a6",
+          5: "#10b981",
+          6: "#22c55e",
+          7: "#d946ef",
           8: "#1796C7",
           9: "#FF4200",
         },
@@ -132,5 +132,6 @@ export default {
       });
     }),
     require("@tailwindcss/typography"),
+    require("@tailwindcss/forms"),
   ],
 };

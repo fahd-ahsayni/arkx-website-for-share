@@ -1,9 +1,9 @@
 import { Canvas } from "@react-three/fiber";
 import Earth from "./models/Earth";
-import { MouseParallax, ScrollParallax } from "react-just-parallax";
-import { OrbitControls, PresentationControls } from "@react-three/drei";
+import { ScrollParallax } from "react-just-parallax";
+import { PresentationControls } from "@react-three/drei";
 
-export default function Experience() {
+const Experience = () => {
   return (
     <ScrollParallax>
       <Canvas>
@@ -14,4 +14,6 @@ export default function Experience() {
       </Canvas>
     </ScrollParallax>
   );
-}
+};
+
+export default Experience;

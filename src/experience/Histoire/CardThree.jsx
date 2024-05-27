@@ -13,7 +13,7 @@ export default function CardThree() {
       <Canvas>
         <Sparkles scale={20} count={100} size={2} />
         <directionalLight intensity={2} />
-        <OrbitControls makeDefault />
+        <OrbitControls makeDefault enableZoom={false} />
         <Float>
           <SpaceShip
             scale={0.2}

@@ -1,16 +1,17 @@
-import HeroSection from "../components/about/HeroSection";
-import Team from "../components/about/Team";
-import { Faqs } from "../components/about/Faqs";
+import HeroSection from "../components/pages/about/HeroSection";
+import Team from "../components/pages/about/Team";
+import Faqs from "../components/pages/about/Faqs";
 import Footer from "../components/global/Footer";
-import Cta from "../components/about/Cta";
-// import  from "@/images/portrait.jpg";
+import Cta from "../components/pages/about/Cta";
+import WordFromCEO from "../components/pages/about/WordFromCEO";
 
 export default function About() {
   return (
     <>
       <HeroSection />
-      <Cta />
       <Team />
+      <WordFromCEO />
+      <Cta />
       <Faqs />
       <Footer />
     </>

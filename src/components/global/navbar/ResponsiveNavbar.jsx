@@ -1,5 +1,5 @@
 import { PopoverButton, PopoverPanel, Transition } from "@headlessui/react";
-import { resources, solutions } from ".";
+import { forCompaniesNavigation, forTalentsNavigation, whyArkxNavigation } from ".";
 import { Fragment } from "react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { logoWihte } from "../../../assets";
@@ -40,7 +40,7 @@ export default function ResponsiveNavbar() {
             </div>
             <div className="mt-6">
               <nav className="grid gap-y-8">
-                {solutions.map((item) => (
+                {whyArkxNavigation.map((item) => (
                   <a
                     key={item.name}
                     href={item.href}
@@ -73,7 +73,16 @@ export default function ResponsiveNavbar() {
               >
                 Blog
               </Link>
-              {resources.map((item) => (
+              {forCompaniesNavigation.map((item) => (
+                <Link
+                  key={item.name}
+                  to={item.href}
+                  className="body-2 text-n-1 hover:text-white"
+                >
+                  {item.name}
+                </Link>
+              ))}
+              {forTalentsNavigation.map((item) => (
                 <Link
                   key={item.name}
                   to={item.href}

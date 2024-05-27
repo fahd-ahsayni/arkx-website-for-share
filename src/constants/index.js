@@ -1,24 +1,20 @@
+// Importing all necessary icons and images from the assets directory
 import {
   benefitIcon1,
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
-  benefitImage2,
-  chromecast,
-  disc02,
+  html,
   discordBlack,
   facebook,
-  file02,
-  homeSmile,
+  java,
+  angular,
   instagram,
-  notification2,
-  notification3,
-  notification4,
-  plusSquare,
-  recording01,
-  recording03,
-  searchMd,
-  sliders04,
+  mongodb,
+  mySql,
+  react,
+  tailwindcss,
+  javaScript,
   telegram,
   twitter,
   mnc,
@@ -31,16 +27,12 @@ import {
   cardSvg1,
   cardSvg2,
   cardSvg3,
-  html,
-  angular,
-  java,
-  javaScript,
-  mongodb,
-  mySql,
-  react,
-  tailwindcss,
+  leMatin,
+  alMonitor,
+  forbes,
 } from "../assets";
 
+// Stats array containing various statistics about the project
 export const stats = [
   {
     id: "stats-3",
@@ -59,35 +51,61 @@ export const stats = [
   },
 ];
 
-export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
-
-export const notificationImages = [notification4, notification3, notification2];
-
-export const companyLogos = [royaume, gouverment, cdg, mnc];
-
-export const brainwaveServicesIcons = [
-  recording03,
-  recording01,
-  disc02,
-  chromecast,
-  sliders04,
+// Navigation array containing navigation links for the website
+export const navigation = [
+  {
+    id: "0",
+    title: "Features",
+    url: "#features",
+  },
+  {
+    id: "1",
+    title: "Pricing",
+    url: "#pricing",
+  },
+  {
+    id: "2",
+    title: "How to use",
+    url: "#how-to-use",
+  },
+  {
+    id: "3",
+    title: "Roadmap",
+    url: "#roadmap",
+  },
+  {
+    id: "4",
+    title: "New account",
+    url: "#signup",
+    onlyMobile: true,
+  },
+  {
+    id: "5",
+    title: "Sign in",
+    url: "#login",
+    onlyMobile: true,
+  },
 ];
 
+// Array of Initiative Supported By Section
+export const initiativeSupportedBy = [royaume, gouverment, cdg, mnc];
 
+// Array of bootcamps offered
 export const bootcamps = [
   {
     id: "0",
     title: "Full-Stack JavaScript",
-    text: "Combinant la puissance de JavaScript pour le développement front-end et back-end, ce stack est idéal pour créer des applications web dynamiques et réactives.",
+    text: "Combining the power of JavaScript for both front-end and back-end development, this stack is ideal for creating dynamic and responsive web applications.",
   },
   {
     id: "1",
     title: "Full-Stack Java / Angular",
-    text: "Tirant parti de la robustesse de Java pour la logique côté serveur et de la polyvalence d'Angular pour le développement côté client, ce stack excelle dans la création d'applications d'entreprise évolutives et faciles à maintenir.",
+    text: "Leveraging the robustness of Java for server-side logic and the versatility of Angular for client-side development, this stack excels in creating scalable and maintainable enterprise applications.",
   },
 ];
 
-export const collabApps = [
+// Array of technologies used with their respective icons and dimensions
+export const technologies = [
   {
     id: "0",
     title: "HTML5",
@@ -146,59 +164,53 @@ export const collabApps = [
   },
 ];
 
-export const benefits = [
+// Array describing the talent journey with respective icons and images
+export const talentJourney = [
   {
     id: "0",
-    title: "Sensibilisation",
-    text: "Offrir aux jeunes des expériences immersives et des interactions professionnelles pour découvrir le digital et leurs talents.",
+    title: "Awareness",
+    text: "Provide young people with immersive experiences and professional interactions to discover digital technology and their talents.",
     backgroundUrl: cardSvg1,
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
   },
   {
     id: "1",
     title: "Orientation",
-    text: "Aider les jeunes à définir un projet professionnel clair dans le digital grâce à des conseils personnalisés et des tests d'aptitude.    ",
+    text: "Help young people define a clear career project in digital technology through personalized advice and aptitude tests.",
     backgroundUrl: cardSvg2,
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-    light: true,
   },
   {
     id: "2",
-    title: "Formation",
-    text: "Permettre aux jeunes d'acquérir les compétences nécessaires pour réussir dans le digital via des programmes de formation adaptés.",
+    title: "Training",
+    text: "Enable young people to acquire the necessary skills to succeed in digital technology through tailored training programs.",
     backgroundUrl: cardSvg3,
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Insertion",
-    text: "Faciliter l'accès des jeunes à l'emploi en créant des passerelles efficaces entre la formation et le monde professionnel.",
+    title: "Placement",
+    text: "Facilitate young people's access to employment by creating effective bridges between training and the professional world.",
     backgroundUrl: cardSvg1,
     iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
-    light: true,
   },
   {
     id: "4",
-    title: "Accompagnement",
-    text: "Soutenir les jeunes dans le développement de leur carrière grâce à des programmes de mentorat et de formation continue.",
+    title: "Support",
+    text: "Support young people in developing their careers through mentoring programs and continuous training.",
     backgroundUrl: cardSvg2,
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
   },
   {
     id: "5",
     title: "Give Back",
-    text: " Encourager les jeunes à contribuer au développement de leur communauté en participant à des projets bénévoles et communautaires.",
+    text: "Encourage young people to contribute to the development of their community by participating in volunteer and community projects.",
     backgroundUrl: cardSvg3,
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
   },
 ];
 
+// Array of social media links with respective icons
 export const socials = [
   {
     id: "0",
@@ -232,34 +244,36 @@ export const socials = [
   },
 ];
 
+// Array of feedback testimonials
 export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "In a very competitive IT sector, you have to be innovative to have the right skills. The 'onboarding accelerator' program allowed us to Upskill and support our talents so that they are operational and productive as soon as they are integrated into client projects. And it is a real alternative to classic sourcing solutions for specialized profiles.",
+    name: "Ghali Moussaoui",
+    title: " IT Telecom Director of INTELCIA ITS",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "En tant que HR manager chez Presta Freedom, j'ai eu le plaisir de collaborer avec les lauréats de ARK-X Talent Factory, ce qui nous a permis de recruter des profils IT extrêmement bien formés, prêts à l'emploi et pleins d'énergies.",
+    name: "Mouad EL OUADOUDI",
+    title: "Manager RH Presta Freedom",
     img: people03,
   },
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Les lauréats d'ARK-X Talent Factory se sont démarqués par leurs compétences et leur enthousiasme. Intégrés à notre équipe, ils dynamisent fortement nos projets informatiques et dev. ",
+    name: "Jalila FARES",
+    title: "Directrice Générale - ONE PRO COM",
     img: people01,
   },
 ];
 
-export const team = [
+// Array of leader profiles with names, roles, and image URLs
+export const leader = [
   {
     name: "Michael Foster",
     role: "CEO",
@@ -278,54 +292,67 @@ export const team = [
     imageUrl:
       "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
-  {
-    name: "Michael Foster",
-    role: "TFM",
-    imageUrl:
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-  {
-    name: "Michael Foster",
-    role: "TFM",
-    imageUrl:
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-  {
-    name: "Michael Foster",
-    role: "TL",
-    imageUrl:
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-  {
-    name: "Michael Foster",
-    role: "TL",
-    imageUrl:
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-  {
-    name: "Michael Foster",
-    role: "TL",
-    imageUrl:
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-  {
-    name: "Michael Foster",
-    role: "TL",
-    imageUrl:
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-  {
-    name: "Michael Foster",
-    role: "TL",
-    imageUrl:
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-  {
-    name: "Michael Foster",
-    role: "TL",
-    imageUrl:
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
+];
 
-  // More people...
+// Array of frequently asked questions (FAQs)
+export const faqs = [
+  [
+    {
+      question: "Does TaxPal handle VAT?",
+      answer:
+        "Well no, but if you move your company offshore you can probably ignore it.",
+    },
+    {
+      question: "Can I pay for my subscription via purchase order?",
+      answer: "Absolutely, we are happy to take your money in all forms.",
+    },
+  ],
+  [
+    {
+      question: "What was that testimonial about tax fraud all about?",
+      answer:
+        "TaxPal is just a software application, ultimately your books are your responsibility.",
+    },
+    {
+      question:
+        "TaxPal sounds horrible but why do I still feel compelled to purchase?",
+      answer:
+        "This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.",
+    },
+  ],
+  [
+    {
+      question: "How do you generate reports?",
+      answer:
+        "You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.",
+    },
+    {
+      question: "Can we expect more inventory features?",
+      answer: "In life it’s really better to never expect anything at all.",
+    },
+  ],
+];
+
+// Array of press content
+export const pressContent = [
+  {
+    title: "Le matin",
+    text: `We want to democratize access to coding, IT skillsand web development
+    for Moroccans and people in the Middle East and NorthAfrica as well
+    as the rest of Africa.`,
+    img: leMatin,
+    color: "text-green-500",
+  },
+  {
+    title: "Al-Monitor",
+    text: "3W Academy Maroc aims at addressing youth unemployment Morocco through accessible tech education",
+    img: alMonitor,
+    color: "text-sky-500",
+  },
+  {
+    title: "Forbes",
+    text: "Business is the practice of making one's living or making money by producing or buying and selling products. It is also Any activity or enterprise entered into for profit.",
+    img: forbes,
+    color: "text-violet-500",
+  },
 ];

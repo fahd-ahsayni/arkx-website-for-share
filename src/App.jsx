@@ -4,10 +4,12 @@ import Home from "./pages/Home";
 import Banner from "./components/global/Banner";
 import Navbar from "./components/global/Navbar";
 import About from "./pages/About";
-import Blog from "./pages/Blog";
-import blogPages from "./components/blog/blog-pages";
+import Resources from "./pages/Resources";
+import blogPages from "./components/pages/resources/blog-pages";
+import TalentFactoryForCorps from "./pages/TalentFactoryForCorps";
+import TalentAgency from "./pages/TalentAgency";
 
-export default function App() {
+const App = () => {
   return (
     <>
       <header className="w-full">
@@ -17,7 +19,12 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/resources" element={<Resources />} />
+        <Route path="/talent-agency" element={<TalentAgency />} />
+        <Route
+          path="/talent-Factory-for-corps"
+          element={<TalentFactoryForCorps />}
+        />
         {blogPages.map(({ path, element }, key) => (
           <Route key={key} path={path} element={element} />
         ))}
@@ -25,4 +32,6 @@ export default function App() {
       <ButtonGradient />
     </>
   );
-}
+};
+
+export default App;

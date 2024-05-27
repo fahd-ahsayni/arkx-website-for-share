@@ -1,82 +1,61 @@
 import {
   BookmarkSquareIcon,
-  CalendarIcon,
-  ChartBarIcon,
-  CursorArrowRaysIcon,
-  LifebuoyIcon,
   PhoneIcon,
   PlayIcon,
-  ShieldCheckIcon,
 } from "@heroicons/react/24/outline";
 
-export const solutions = [
+export const forCompaniesNavigation = [
   {
-    name: "Individuals",
+    name: "Team Training",
     description:
-      "Get a better understanding of where your traffic is coming from.",
-    href: "#",
-    icon: ChartBarIcon,
-  },
-  {
-    name: "Corporate Programs",
-    description: "Speak directly to your customers in a more meaningful way.",
-    href: "#",
-    icon: CursorArrowRaysIcon,
-  },
-  {
-    name: "Institutional Programs",
-    description: "Your customers' data will be safe and secure.",
-    href: "#",
-    icon: ShieldCheckIcon,
-  },
-];
-export const callsToAction = [
-  { name: "Watch Demo", href: "#", icon: PlayIcon },
-  { name: "Contact Sales", href: "#", icon: PhoneIcon },
-];
-
-export const resources = [
-  {
-    name: "Jobintech",
-    description:
-      "Get all of your questions answered in our forums or contact support.",
-    href: "#",
-    icon: LifebuoyIcon,
-  },
-  {
-    name: "Web Developer",
-    description:
-      "Learn how to maximize our platform to get the most out of it.",
-    href: "#",
+      "Train your team to enhance skills and boost productivity with our comprehensive training programs.",
+    href: "/team-training",
     icon: BookmarkSquareIcon,
   },
   {
-    name: "Software Engineer",
+    name: "Hire Talents",
     description:
-      "See what meet-ups and other events we might be planning near you.",
-    href: "#",
-    icon: CalendarIcon,
-  },
-  {
-    name: "Salceforce Developer",
-    description: "Understand how we take your privacy seriously.",
-    href: "#",
-    icon: ShieldCheckIcon,
-  },
-  {
-    name: "Level Up",
-    description: "Understand how we take your privacy seriously.",
-    href: "#",
-    icon: ShieldCheckIcon,
+      "Hire talents to strengthen your team with qualified and skilled professionals.",
+    href: "/hire-talents",
+    icon: BookmarkSquareIcon,
   },
 ];
 
-export const recentPosts = [
-  { id: 1, name: "Boost your conversion rate", href: "#" },
+export const forTalentsNavigation = [
   {
-    id: 2,
-    name: "How to use search engine optimization to drive traffic to your site",
-    href: "#",
+    name: "Future Tech Learning Community",
+    description:
+      "Join the Future Tech Learning Community to stay ahead with the latest advancements in technology and innovation.",
+    href: "/future-tech",
+    icon: BookmarkSquareIcon,
   },
-  { id: 3, name: "Improve your customer experience", href: "#" },
+  {
+    name: "Tech Remote Work Community",
+    description:
+      "Join the leading Tech Remote Work Community to connect with professionals and explore remote work opportunities in the tech industry.",
+    href: "/tech-remote",
+    icon: BookmarkSquareIcon,
+  },
+];
+
+export const whyArkxNavigation = [
+  {
+    name: "Events",
+    description:
+      "Participate in our events to network, learn, and discover the latest industry trends.",
+    href: "/events",
+    icon: BookmarkSquareIcon,
+  },
+  {
+    name: "Resources",
+    description:
+      "Explore our resources for comprehensive guides, tutorials, blogs, and case studies to enhance your knowledge and skills.",
+    href: "/resources",
+    icon: BookmarkSquareIcon,
+  },
+];
+
+export const callsToAction = [
+  { name: "Watch Demo", href: "#", icon: PlayIcon },
+  { name: "Contact Sales", href: "#", icon: PhoneIcon },
 ];

@@ -5,7 +5,6 @@ import smallSphere from "./4-small.png";
 import grid from "./grid.png";
 import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
-import yourlogo from "./yourlogo.svg";
 import homeSmile from "./home-smile.svg";
 import file02 from "./file-02.svg";
 import searchMd from "./search-md.svg";
@@ -83,7 +82,10 @@ import cardSvg1 from "./benefits/card-1.svg";
 import cardSvg2 from "./benefits/card-3.svg";
 import cardSvg3 from "./benefits/card-4.svg";
 
+import hamzabp from "./team/hamza-bp.jpg";
+
 export {
+  hamzabp,
   cardSvg1,
   cardSvg2,
   cardSvg3,
@@ -104,7 +106,6 @@ export {
   gradient,
   smallSphere,
   grid,
-  yourlogo,
   homeSmile,
   file02,
   searchMd,

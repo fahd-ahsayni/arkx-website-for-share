@@ -1,13 +1,13 @@
 import { quotes } from "../../assets";
 
 const FeedbackCard = ({ content, name, title, img }) => (
-  <div className="flex bg-gradient-to-t from-neutral-900/40 to-neutral-950 border border-n-6/70 justify-between flex-col px-10 py-12 rounded-[20px]  max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
+  <div className="flex bg-gradient-to-br from-neutral-950 to-neutral-900/50 border border-n-6/70 justify-between flex-col px-10 py-12 rounded-[20px] max-w-full md:mr-10 sm:mr-5 mr-0 my-5">
     <img
       src={quotes}
       alt="double_quotes"
       className="w-[42.6px] h-[27.6px] object-contain"
     />
-    <p className="body-2 text-n-1 my-10">{content}</p>
+    <p className="body-2 text-n-2 my-10">{content}</p>
 
     <div className="flex flex-row">
       <img src={img} alt={name} className="w-[48px] h-[48px] rounded-full" />

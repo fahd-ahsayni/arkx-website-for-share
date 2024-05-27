@@ -1,8 +1,7 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
-export default function SimpleButton({ text, href, className }) {
-  const classes = `inline-flex items-center rounded border border-transparent px-4 py-2 shadow-sm focus:outline-none body-1 uppercase text-sm tracking-wide ${className} `;
+const SimpleButton = ({ text, href, className }) => {
+  const classes = `inline-flex body-2 rounded-md border border-transparent bg-gradient-to-br from-color-9 to-[#FF8000] bg-origin-border px-4 py-2 text-white uppercase ${className}`;
   const renderButton = () => (
     <button type="button" className={classes}>
       {text}
@@ -14,4 +13,6 @@ export default function SimpleButton({ text, href, className }) {
     </Link>
   );
   return href ? renderButton() : renderLink();
-}
+};
+
+export default SimpleButton;
