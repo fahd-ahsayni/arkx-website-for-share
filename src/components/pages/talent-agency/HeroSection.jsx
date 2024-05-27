@@ -10,7 +10,7 @@ const HeroSection = () => {
           alt=""
         />
         <div
-          className="absolute inset-0 bg-neutral-900/70 mix-blend-multiply"
+          className="absolute inset-0 bg-neutral-900/40 mix-blend-multiply"
           aria-hidden="true"
         />
       </div>

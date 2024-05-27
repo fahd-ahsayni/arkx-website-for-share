@@ -30,6 +30,9 @@ import {
   leMatin,
   alMonitor,
   forbes,
+  abdellazize,
+  hamza,
+  zaineb,
 } from "../assets";
 
 // Stats array containing various statistics about the project
@@ -273,24 +276,21 @@ export const feedback = [
 ];
 
 // Array of leader profiles with names, roles, and image URLs
-export const leader = [
+export const leaders = [
   {
-    name: "Michael Foster",
-    role: "CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Abdelaziz Belkoura",
+    role: "Chief Technology Office",
+    image: abdellazize,
   },
   {
-    name: "Michael Foster",
-    role: "CTO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Hamza Debbarh",
+    role: "Chief Executive Office",
+    image: hamza,
   },
   {
-    name: "Michael Foster",
-    role: "COO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Zaineb Khizani",
+    role: "Chief Learning Officer",
+    image: zaineb,
   },
 ];
 

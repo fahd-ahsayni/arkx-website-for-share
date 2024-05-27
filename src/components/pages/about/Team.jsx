@@ -1,4 +1,4 @@
-import { leader } from "../../../constants";
+import { leaders } from "../../../constants";
 import Heading from "../../elements/Heading";
 import Section from "../../global/Section";
 
@@ -22,13 +22,13 @@ const Team = () => {
             role="list"
             className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:max-w-5xl lg:grid-cols-3"
           >
-            {leader.map((person, key) => (
+            {leaders.map((person, key) => (
               <li key={key}>
                 <div className="space-y-6">
                   <div className="mx-auto overflow-hidden p-4 border border-n-2/20 bg-neutral-950 h-40 w-40 rounded-full xl:h-56 xl:w-56">
                     <img
                       className="object-cover w-full h-full rounded-full"
-                      src={person.imageUrl}
+                      src={person.image}
                       alt=""
                     />
                   </div>

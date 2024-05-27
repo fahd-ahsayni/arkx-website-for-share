@@ -1,9 +1,9 @@
 import Footer from "../components/global/Footer";
 import Testimonials from "../components/pages/home/Testimonials";
-import ArkxSection from "../components/pages/talent-Factory-for-corps/AboutUsSection";
-import ChallengesAndSolutions from "../components/pages/talent-Factory-for-corps/ChallengesAndSolutions";
-import HeroSection from "../components/pages/talent-Factory-for-corps/HeroSection";
-import Outcomes from "../components/pages/talent-Factory-for-corps/Outcomes";
+import ArkxSection from "../components/pages/talent-factory/AboutUsSection";
+import ChallengesAndSolutions from "../components/pages/talent-factory/ChallengesAndSolutions";
+import HeroSection from "../components/pages/talent-factory/HeroSection";
+import Outcomes from "../components/pages/talent-factory/Outcomes";
 
 function TalentFactory() {
   return (

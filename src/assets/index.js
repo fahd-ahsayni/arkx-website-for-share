@@ -83,6 +83,9 @@ import cardSvg2 from "./benefits/card-3.svg";
 import cardSvg3 from "./benefits/card-4.svg";
 
 import hamzabp from "./team/hamza-bp.jpg";
+import hamza from "./team/hamza.webp";
+import abdellazize from "./team/abdellazize.webp";
+import zaineb from "./team/zaineb.webp";
 
 import img01 from "./jobintech/IMG_01.webp";
 import img02 from "./jobintech/IMG_02.webp";
@@ -91,6 +94,9 @@ import img04 from "./jobintech/IMG_04.webp";
 import img05 from "./jobintech/IMG_05.webp";
 
 export {
+  hamza,
+  abdellazize,
+  zaineb,
   img01,
   img02,
   img03,

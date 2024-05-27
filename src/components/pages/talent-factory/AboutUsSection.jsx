@@ -33,13 +33,11 @@ const AboutUsSection = () => {
             </div>
             <div className="mt-12 sm:mt-16 flex items-center lg:mt-0">
               <div className="w-full relative md:right-0 -right-6">
-                <ScrollParallax>
-                  <img
-                    className="w-full rounded-3xl shadow-xl ring-1 ring-black ring-opacity-5"
-                    src={imgArkxSection}
-                    alt="Inbox user interface"
-                  />
-                </ScrollParallax>
+                <img
+                  className="w-full rounded-3xl shadow-xl ring-1 ring-black ring-opacity-5"
+                  src={imgArkxSection}
+                  alt="Inbox user interface"
+                />
               </div>
             </div>
           </div>
@@ -70,15 +68,13 @@ const AboutUsSection = () => {
               </div>
             </div>
             <div className="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
-              <ScrollParallax>
-                <div className="flex items-center relative lg:m-0 lg:h-full lg:px-0 md:left-0 -left-6">
-                  <img
-                    className="w-full shadow-xl rounded-3xl ring-1 ring-black ring-opacity-5"
-                    src={imgJobintechSection}
-                    alt="Customer profile user interface"
-                  />
-                </div>
-              </ScrollParallax>
+              <div className="flex items-center relative lg:m-0 lg:h-full lg:px-0 md:left-0 -left-6">
+                <img
+                  className="w-full shadow-xl rounded-3xl ring-1 ring-black ring-opacity-5"
+                  src={imgJobintechSection}
+                  alt="Customer profile user interface"
+                />
+              </div>
             </div>
           </div>
         </div>

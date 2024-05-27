@@ -8,7 +8,7 @@ const Cta = () => {
       crosses
       crossesOffset="lg:translate-y-[.25rem]"
       customPaddings
-      className="py-24 sm:py-32 -mt-16 relative"
+      className="py-24 sm:py-16 -mt-16 relative"
     >
       <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="relative isolate overflow-hidden px-6 text-center shadow-2xl sm:rounded-3xl sm:px-16">
@@ -18,7 +18,7 @@ const Cta = () => {
               text="Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur commodo do ea."
             />
           </div>
-          <div className="mt-10 flex items-center justify-center gap-x-6">
+          <div className="flex items-center justify-center gap-x-6">
             <SimpleButton text="Get started" />
           </div>
         </div>
