@@ -6,19 +6,26 @@ import {
 
 export const forCompaniesNavigation = [
   {
-    name: "Team Training",
+    name: "Talent Agency",
     description:
-      "Train your team to enhance skills and boost productivity with our comprehensive training programs.",
-    href: "/team-training",
+      "Discover top talent and connect with industry leaders through our Talent Agency. Whether you're looking to hire or get hired, we've got you covered.",
+    href: "/talent-agency",
     icon: BookmarkSquareIcon,
   },
-  {
-    name: "Hire Talents",
-    description:
-      "Hire talents to strengthen your team with qualified and skilled professionals.",
-    href: "/hire-talents",
-    icon: BookmarkSquareIcon,
-  },
+  // {
+  //   name: "Team Training",
+  //   description:
+  //     "Train your team to enhance skills and boost productivity with our comprehensive training programs.",
+  //   href: "/team-training",
+  //   icon: BookmarkSquareIcon,
+  // },
+  // {
+  //   name: "Hire Talents",
+  //   description:
+  //     "Hire talents to strengthen your team with qualified and skilled professionals.",
+  //   href: "/hire-talents",
+  //   icon: BookmarkSquareIcon,
+  // },
 ];
 
 export const forTalentsNavigation = [

@@ -4,16 +4,15 @@ import ResponsiveNavbar from "./navbar/ResponsiveNavbar";
 import { logoWihte } from "../../assets";
 import SimpleButton from "../elements/SimpleButton";
 import { Link, useLocation } from "react-router-dom";
-import ForTalents from "./navbar/ForTalents";
 import ForCompanies from "./navbar/ForCompanies";
-import WhyArkx from "./navbar/WhyArkx";
+import Modal from "./Modal";
 
 const Navbar = () => {
   const location = useLocation();
   const path = location.pathname;
 
   return (
-    <Popover className="relative border-b border-b-n-2/20 bg-black z-[50] w-full shadow-2xl">
+    <Popover className="relative border-b border-b-n-2/20 bg-black z-[40] w-full shadow-2xl">
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex items-center justify-between py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -47,7 +46,14 @@ const Navbar = () => {
               About
             </Link>
             <ForCompanies />
-            <ForTalents />
+            <Link
+              to="/talent-factory"
+              className={`body-2 hover:text-white transition-colors ${
+                path == "/talent-factory" ? "text-white" : "text-n-2"
+              }`}
+            >
+              Talent Factory
+            </Link>
             <Link
               to="/resources"
               className={`body-2 hover:text-white transition-colors ${
@@ -58,7 +64,7 @@ const Navbar = () => {
             </Link>
           </PopoverGroup>
           <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
-            <SimpleButton text="Get Started" />
+              <Modal />
           </div>
         </div>
       </div>

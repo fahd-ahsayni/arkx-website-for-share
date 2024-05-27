@@ -6,7 +6,7 @@ import Navbar from "./components/global/Navbar";
 import About from "./pages/About";
 import Resources from "./pages/Resources";
 import blogPages from "./components/pages/resources/blog-pages";
-import TalentsAgency from "./pages/TalentsAgency";
+import TalentAgency from "./pages/TalentAgency";
 import TalentFactory from "./pages/TalentFactory";
 
 const App = () => {
@@ -20,7 +20,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/resources" element={<Resources />} />
-        <Route path="/talents-agency" element={<TalentsAgency />} />
+        <Route path="/talent-agency" element={<TalentAgency />} />
         <Route
           path="/talent-factory"
           element={<TalentFactory />}
