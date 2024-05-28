@@ -64,13 +64,13 @@ export default function ResponsiveNavbar() {
           </div>
           <div className="space-y-6 py-6 px-5">
             <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-              <Link to="/about" className="body-2 text-n-1 hover:text-white">
+              <Link to="/" className="body-2 text-n-1 hover:text-white">
                 Home
               </Link>
-              <Link to="/blog" className="body-2 text-n-1 hover:text-white">
+              <Link to="/about" className="body-2 text-n-1 hover:text-white">
                 About
               </Link>
-              <Link to="/blog" className="body-2 text-n-1 hover:text-white">
+              <Link to="/resources" className="body-2 text-n-1 hover:text-white">
                 Resources
               </Link>
             </div>
