@@ -23,9 +23,9 @@ const HeroSection = () => {
           Morocco through the creation of a large-scale pool of 'job-ready' tech
           talents
         </h4>
-        <div className="mt-10">
+        {/* <div className="mt-10">
           <SimpleButton text="Get Started" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

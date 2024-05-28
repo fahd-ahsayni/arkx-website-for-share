@@ -294,37 +294,38 @@ export const leaders = [
 export const faqs = [
   [
     {
-      question: "Does TaxPal handle VAT?",
+      question: "How does Ark-x help businesses find top tech talent?",
       answer:
-        "Well no, but if you move your company offshore you can probably ignore it.",
+        "Ark-x connects businesses with a curated pool of skilled tech professionals. Our platform ensures that you can effortlessly find and hire candidates who are ready to elevate your team. We handle the vetting, matching, and continuous support to make the hiring process seamless.",
     },
     {
-      question: "Can I pay for my subscription via purchase order?",
-      answer: "Absolutely, we are happy to take your money in all forms.",
+      question: "What types of tech roles can I hire through Ark-x?",
+      answer:
+        "You can hire a wide range of tech professionals through Ark-x, including full-stack developers, data analysts, cybersecurity experts, software engineers, and more. Whether you're looking for entry-level or experienced professionals, we have the talent to meet your needs.",
     },
   ],
   [
     {
-      question: "What was that testimonial about tax fraud all about?",
+      question: "How does the vetting process work?",
       answer:
-        "TaxPal is just a software application, ultimately your books are your responsibility.",
+        "Our rigorous vetting process includes multiple stages of evaluation to ensure we only present top talent. This involves technical assessments, interviews, and real-world project evaluations to verify candidates' skills and readiness for the job market.",
     },
     {
-      question:
-        "TaxPal sounds horrible but why do I still feel compelled to purchase?",
+      question: "Can Ark-x help with short-term freelance projects?",
       answer:
-        "This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.",
+        "Yes, Ark-x provides access to a pool of vetted freelancers ready to take on short-term projects. We manage the selection process and ensure that the freelancers have the necessary skills to meet your project's requirements.",
     },
   ],
   [
     {
-      question: "How do you generate reports?",
+      question: "What support does Ark-x offer after hiring?",
       answer:
-        "You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.",
+        "After hiring through Ark-x, we offer continuous follow-up and support to ensure satisfaction for both the business and the hired talent. This includes regular check-ins, performance reviews, and upskilling opportunities to keep the talent aligned with your company's needs.",
     },
     {
-      question: "Can we expect more inventory features?",
-      answer: "In life it’s really better to never expect anything at all.",
+      question: "How can I get started with hiring through Ark-x?",
+      answer:
+        "Getting started is easy! Simply fill out our online form to tell us about your hiring needs. Our team will review your requirements and match you with the best candidates from our talent pool. You can then interview and select the talent that fits your team.",
     },
   ],
 ];

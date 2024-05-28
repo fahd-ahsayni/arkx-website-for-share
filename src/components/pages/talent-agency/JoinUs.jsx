@@ -7,8 +7,8 @@ const JoinUs = () => {
   return (
     <Section crosses>
       <div className="relative overflow-hidden pb-80">
-        <div className="relative mx-auto max-w-7xl px-6 text-center lg:px-8">
-          <div className="mx-auto max-w-2xl lg:max-w-4xl">
+        <div className="relative mx-auto max-w-7xl px-6 md:text-center lg:px-8">
+          <div className="mx-auto max-w-2xl lg:max-w-4xl flex md:justify-center">
             <Heading
               title="Join Us"
               text="Why Wait? Unlock your potential and drive your success. Join our community today and take the first step towards a brighter future."

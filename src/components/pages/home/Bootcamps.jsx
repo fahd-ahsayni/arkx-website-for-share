@@ -39,9 +39,9 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <button className="inline-flex body-2 rounded-md border border-transparent bg-indigo-600 bg-origin-border px-4 py-2 text-white uppercase">
+          {/* <button className="inline-flex body-2 rounded-md border border-transparent bg-indigo-600 bg-origin-border px-4 py-2 text-white uppercase">
             Join Your Guild
-          </button>
+          </button> */}
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">

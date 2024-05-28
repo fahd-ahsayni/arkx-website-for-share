@@ -11,7 +11,7 @@ const AboutUsSection = () => {
       <div className="relative overflow-hidden pb-12">
         <div className="relative">
           <div className="lg:mx-auto lg:grid lg:container lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
-            <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
+            <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:px-0">
               <div>
                 <div className="mt-6">
                   <Heading title="Ark-x: Catalyst for the Digital Ecosystem" />

@@ -11,8 +11,4 @@ export default [
     element: <CaseStudyIntelcia />,
     path: "/blog/blog2",
   },
-  {
-    element: <Blog3 />,
-    path: "/blog/blog3",
-  },
 ];

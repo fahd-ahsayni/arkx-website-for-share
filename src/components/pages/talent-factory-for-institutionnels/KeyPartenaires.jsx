@@ -57,7 +57,7 @@ const KeyPartenaires = () => {
             <LeftLine />
           </div>
         </div>
-        <div className="mt-14">
+        <div className="mt-14 pb-4">
           <div className="w-full flex items-center justify-center">
             <Heading title="Startups" className="text-center" />
           </div>

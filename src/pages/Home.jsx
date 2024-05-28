@@ -14,12 +14,12 @@ export default function Home() {
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <HeroSection />
         {/* <TalentJourney /> */}
-        <CompanyValue />
+        {/* <CompanyValue /> */}
         <ArkxJobintech />
         <Bootcamps />
         <WhoWeAre />
         <Press />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Footer />
       </div>
     </>

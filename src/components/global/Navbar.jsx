@@ -6,7 +6,6 @@ import { Link, useLocation } from "react-router-dom";
 import ForCompanies from "./navbar/ForCompanies";
 import Modal from "./Modal";
 import ForInstitutionnels from "./navbar/ForInstitutionnels";
-import ForTalents from "./navbar/ForTalents";
 
 const Navbar = () => {
   const location = useLocation();
@@ -38,7 +37,15 @@ const Navbar = () => {
               About
             </Link>
             <ForCompanies />
-            <ForInstitutionnels />
+            <Link
+              to="/talent-factory-for-institutionnels"
+              className={`body-2 hover:text-white transition-colors ${
+                path == "/talent-factory-for-institutionnels" ? "text-white" : "text-n-2"
+              }`}
+            >
+              For Government & NGOs
+            </Link>
+            {/* <ForInstitutionnels /> */}
             {/* <ForTalents /> */}
             <Link
               to="/resources"

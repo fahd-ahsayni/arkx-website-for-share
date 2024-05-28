@@ -18,24 +18,26 @@ const App = () => {
         <Banner />
         <Navbar />
       </header>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/resources" element={<Resources />} />
-        <Route path="/talent-agency" element={<TalentAgency />} />
-        <Route path="/form/hire-talents" element={<HireTalent/>} />
-        <Route
-          path="/talent-factory-for-corps"
-          element={<TalentFactoryForCorps />}
-        />
-        <Route
-          path="/talent-factory-for-institutionnels"
-          element={<TalentFactoryForInstitutionnels />}
-        />
-        {blogPages.map(({ path, element }, key) => (
-          <Route key={key} path={path} element={element} />
-        ))}
-      </Routes>
+      <main className="pt-32 sm:pt-32">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/resources" element={<Resources />} />
+          <Route path="/talent-agency" element={<TalentAgency />} />
+          <Route path="/form/hire-talents" element={<HireTalent />} />
+          <Route
+            path="/talent-factory-for-corps"
+            element={<TalentFactoryForCorps />}
+          />
+          <Route
+            path="/talent-factory-for-institutionnels"
+            element={<TalentFactoryForInstitutionnels />}
+          />
+          {blogPages.map(({ path, element }, key) => (
+            <Route key={key} path={path} element={element} />
+          ))}
+        </Routes>
+      </main>
       <ButtonGradient />
     </>
   );

@@ -27,7 +27,7 @@ const HeroSection = () => {
 
   return (
     <Section
-      className="pb-[1rem] pt-24 md:-mt-[5.25rem] -mt-[8.25rem]"
+      className="pb-[1rem] md:-mt-[5.25rem] -mt-[8.25rem]"
       id="hero"
     >
       <GradientOne />
@@ -82,7 +82,7 @@ const HeroSection = () => {
                 className="w-full scale-[1.7] md:scale-[1]"
               >
                 <source
-                  src="https://dl.dropboxusercontent.com/scl/fi/2ikokc65yp7ezf0r0l3se/team-builing-480.mp4?rlkey=31s52vqj2azxep7c0zj3kxl7s&st=378phpdv&dl=0"
+                  src="https://res.cloudinary.com/ddjikuikd/video/upload/v1716911596/find-my-dev_cusx1m.mp4"
                   type="video/mp4"
                 />
               </video>

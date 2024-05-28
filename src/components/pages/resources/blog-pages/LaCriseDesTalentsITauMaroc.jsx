@@ -1,6 +1,7 @@
 import Heading from "../../../elements/Heading";
 import Footer from "../../../global/Footer";
 import Section from "../../../global/Section";
+import image01 from "../assets/images/image01.png";
 
 const LaCriseDesTalentsITauMaroc = () => {
   return (
@@ -23,6 +24,18 @@ const LaCriseDesTalentsITauMaroc = () => {
               <h2 className="text-gray-100">
                 Qu'est-ce que la Tragédie des Bien Communs ?
               </h2>
+              <figure>
+                <img
+                  class="w-full rounded-lg"
+                  src={image01}
+                  alt=""
+                  width="1310"
+                  height="873"
+                />
+                <figcaption>
+                  Sagittis scelerisque nulla cursus in enim consectetur quam.
+                </figcaption>
+              </figure>
               <p>
                 <blockquote className="text-n-2">
                   La Tragédie des Bien Communs est un concept introduit par

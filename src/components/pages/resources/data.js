@@ -18,11 +18,4 @@ export const blogs = [
       "Intelcia and Ark-x Talent Factory's 6-week bootcamp swiftly prepares Full-Stack Engineers for real-world projects, combining technical training with AGILE methodologies for immediate productivity.",
     to: "/blog/blog2",
   },
-  {
-    image: image03,
-    title: "With one platform you can explore the whole world virtually",
-    subtitle:
-      "Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem",
-    to: "/blog/blog3",
-  },
 ];

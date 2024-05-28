@@ -22,9 +22,9 @@ const HeroSection = () => {
           Whether you're a startup or an enterprise, find the best freelancers
           vetted and upskilled to meet your needs.
         </h4>
-        <div className="mt-10">
+        {/* <div className="mt-10">
           <SimpleButton text="Get Started" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

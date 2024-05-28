@@ -11,7 +11,7 @@ export default function About() {
       <Team />
       {/* <WordFromCEO /> */}
       <Cta />
-      <Faqs />
+      {/* <Faqs /> */}
       <Footer />
     </>
   );
