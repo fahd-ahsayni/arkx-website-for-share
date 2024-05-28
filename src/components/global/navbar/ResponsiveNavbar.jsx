@@ -10,6 +10,7 @@ import { XMarkIcon } from "@heroicons/react/24/outline";
 import { logoWihte } from "../../../assets";
 import SimpleButton from "../../elements/SimpleButton";
 import { Link } from "react-router-dom";
+import Modal from "../Modal";
 
 export default function ResponsiveNavbar() {
   return (
@@ -46,9 +47,9 @@ export default function ResponsiveNavbar() {
             <div className="mt-6">
               <nav className="grid gap-y-8">
                 {importanteNavigationForNavMobile.map((item) => (
-                  <a
+                  <Link
                     key={item.name}
-                    href={item.href}
+                    to={item.href}
                     className="-m-3 flex items-center rounded-md p-3"
                   >
                     <item.icon
@@ -56,7 +57,7 @@ export default function ResponsiveNavbar() {
                       aria-hidden="true"
                     />
                     <span className="ml-3 body-2 text-n-1">{item.name}</span>
-                  </a>
+                  </Link>
                 ))}
               </nav>
             </div>
@@ -74,10 +75,7 @@ export default function ResponsiveNavbar() {
               </Link>
             </div>
             <div>
-              <SimpleButton
-                text="Embark with us"
-                className="bg-gradient-to-br from-color-9 to-[#ff8000] text-n-1 w-full flex justify-center"
-              />
+              <Modal />
             </div>
           </div>
         </div>

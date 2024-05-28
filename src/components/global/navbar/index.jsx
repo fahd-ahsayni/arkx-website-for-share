@@ -12,17 +12,12 @@ export const importanteNavigationForNavMobile = [
   },
   {
     name: "Talent Factory for Corps",
-    href: "/talent-factory",
-    icon: BookmarkSquareIcon,
-  },
-  {
-    name: "Talent Factory for Candidates",
-    href: "/talent-factory",
+    href: "/talent-factory-for-corps",
     icon: BookmarkSquareIcon,
   },
   {
     name: "Talent Factory for Institutionnels",
-    href: "/talent-agency",
+    href: "/talent-factory-for-institutionnels",
     icon: BookmarkSquareIcon,
   },
 ];

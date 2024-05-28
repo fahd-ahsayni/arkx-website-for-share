@@ -7,6 +7,7 @@ import {
   TransitionChild,
 } from "@headlessui/react";
 import { logoWihte } from "../../assets";
+import { Link } from "react-router-dom";
 
 const Modal = () => {
   const [open, setOpen] = useState(false);
@@ -15,7 +16,7 @@ const Modal = () => {
     <>
       <button
         type="button"
-        className="inline-flex body-2 text-sm font-medium rounded-md border border-transparent bg-gradient-to-br from-color-9 to-[#FF8000] bg-origin-border px-4 py-2 text-white uppercase"
+        className="md:inline-flex body-2 text-sm font-medium rounded-md border border-transparent bg-gradient-to-br from-color-9 to-[#FF8000] bg-origin-border px-4 py-2 text-white uppercase flex justify-center md:w-auto w-full"
         onClick={() => setOpen(true)}
       >
         Explore Now
