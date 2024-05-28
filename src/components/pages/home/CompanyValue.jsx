@@ -5,9 +5,8 @@ import Experience from "../../../experience/Experience";
 
 const stats = [
   { label: "Founded", value: "2021" },
-  { label: "Employees", value: "37" },
-  { label: "Cities", value: "12" },
-  { label: "Raised", value: "$25M" },
+  { label: "Employees", value: "32" },
+  { label: "Cities", value: "2" },
 ];
 
 const CompanyValue = () => {

@@ -7,7 +7,9 @@ import About from "./pages/About";
 import Resources from "./pages/Resources";
 import blogPages from "./components/pages/resources/blog-pages";
 import TalentAgency from "./pages/TalentAgency";
-import TalentFactory from "./pages/TalentFactory";
+import TalentFactoryForCorps from "./pages/TalentFactoryForCorps";
+import TalentFactoryForInstitutionnels from "./pages/TalentFactoryForInstitutionnels";
+import HireTalent from "./pages/forms/HireTalent";
 
 const App = () => {
   return (
@@ -21,9 +23,14 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/talent-agency" element={<TalentAgency />} />
+        <Route path="/form/hire-talents" element={<HireTalent/>} />
         <Route
-          path="/talent-factory"
-          element={<TalentFactory />}
+          path="/talent-factory-for-corps"
+          element={<TalentFactoryForCorps />}
+        />
+        <Route
+          path="/talent-factory-for-institutionnels"
+          element={<TalentFactoryForInstitutionnels />}
         />
         {blogPages.map(({ path, element }, key) => (
           <Route key={key} path={path} element={element} />

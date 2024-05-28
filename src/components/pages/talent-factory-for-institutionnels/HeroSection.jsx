@@ -16,11 +16,12 @@ const HeroSection = () => {
       </div>
       <div className="relative mx-auto container py-24 px-6 sm:py-32 lg:px-8">
         <h1 className="h1 text-white max-w-6xl capitalize">
-          Free access to a pool of available, job ready entry-level FS Devs.
+          Boosting IT Jobs and Competitiveness in Morocco
         </h1>
         <h4 className="body-1 text-gray-200 max-w-xl mt-8">
-          Whether you're a startup or an enterprise, find the best freelancers
-          vetted and upskilled to meet your needs.
+          Improving Youth Employment And The Competitiveness Of The IT Sector In
+          Morocco through the creation of a large-scale pool of 'job-ready' tech
+          talents
         </h4>
         <div className="mt-10">
           <SimpleButton text="Get Started" />

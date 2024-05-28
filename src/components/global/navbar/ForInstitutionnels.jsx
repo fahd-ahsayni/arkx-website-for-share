@@ -1,18 +1,18 @@
 import { Popover } from "@headlessui/react";
-import { callsToAction, forCompaniesNavigation } from "./index";
+import { forInstitutionnelsNavigation } from "./index";
 import Select from "./Select";
 import SelectLayout from "./SelectLayout";
 import { Link } from "react-router-dom";
 
-export default function ForCompanies() {
+const ForInstitutionnels = () => {
   return (
     <Popover className="relative">
       {({ open }) => (
         <>
-          <Select open={open} text="For Companies" />
+          <Select open={open} text="For Institutionnels" />
           <SelectLayout>
             <div className="relative grid gap-6 bg-neutral-950 px-5 py-6 sm:gap-8 sm:p-8">
-              {forCompaniesNavigation.map((item) => (
+              {forInstitutionnelsNavigation.map((item) => (
                 <Link
                   key={item.name}
                   to={item.href}
@@ -34,4 +34,6 @@ export default function ForCompanies() {
       )}
     </Popover>
   );
-}
+};
+
+export default ForInstitutionnels;

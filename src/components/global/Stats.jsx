@@ -1,9 +1,18 @@
-import { stats } from "../../constants"; 
+import { stats } from "../../constants";
 
-const Stats = () => (
-  <section className="flex justify-center items-end flex-row flex-wrap sm:mb-20 mb-6 space-x-10">
-    {stats.map((stat) => (
-      <div key={stat.id} className="flex justify-start items-center flex-row" >
+const Stats = ({ index = null, justifyStart = false }) => (
+  <section
+    className={`${
+      justifyStart ? "justify-start" : "justify-center"
+    } flex md:items-end flex-row flex-wrap sm:mb-20 mb-6 md:space-x-10`}
+  >
+    {stats.map((stat, key) => (
+      <div
+        key={stat.id}
+        className={`flex md:justify-start items-center flex-row ${
+          key == 1 && "mx-6"
+        } ${key == index && "hidden"}`}
+      >
         <h4 className="h4 md:h3 md:font-semibold font-bold text-white">
           {stat.value}
         </h4>

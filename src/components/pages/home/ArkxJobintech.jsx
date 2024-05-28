@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { img01, img02, img03, img04, img05 } from "../../../assets";
 import { GradientThree } from "../../design/Hero";
 import Heading from "../../elements/Heading";
@@ -41,10 +42,12 @@ const ArkxJobintech = () => {
                   build high-potential careers.
                 </p>
 
-                <SimpleButton
-                  text="rejoignez la communauté"
-                  className="bg-gradient-to-br from-green-600 to-lime-600 text-white mt-8"
-                />
+                <Link
+                  to="/talent-factory-for-institutionnels"
+                  className="inline-flex mt-8 body-2 rounded-md border border-transparent bg-gradient-to-br from-green-700 to-lime-500 bg-origin-border px-4 py-2 text-white uppercase"
+                >
+                  Keep exploring
+                </Link>
               </div>
               <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
                 <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">

@@ -42,7 +42,7 @@ export const stats = [
   {
     id: "stats-3",
     title: "Insertion rate",
-    value: "87%+",
+    value: "89%+",
   },
   {
     id: "stats-2",

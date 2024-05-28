@@ -3,14 +3,13 @@ import Team from "../components/pages/about/Team";
 import Faqs from "../components/pages/about/Faqs";
 import Footer from "../components/global/Footer";
 import Cta from "../components/pages/about/Cta";
-import WordFromCEO from "../components/pages/about/WordFromCEO";
 
 export default function About() {
   return (
     <>
       <HeroSection />
       <Team />
-      <WordFromCEO />
+      {/* <WordFromCEO /> */}
       <Cta />
       <Faqs />
       <Footer />

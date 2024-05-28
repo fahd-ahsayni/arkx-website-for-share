@@ -1,5 +1,10 @@
 import { PopoverButton, PopoverPanel, Transition } from "@headlessui/react";
-import { forCompaniesNavigation, forTalentsNavigation, whyArkxNavigation } from ".";
+import {
+  forCompaniesNavigation,
+  forTalentsNavigation,
+  importanteNavigationForNavMobile,
+  whyArkxNavigation,
+} from ".";
 import { Fragment } from "react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { logoWihte } from "../../../assets";
@@ -40,19 +45,17 @@ export default function ResponsiveNavbar() {
             </div>
             <div className="mt-6">
               <nav className="grid gap-y-8">
-                {whyArkxNavigation.map((item) => (
+                {importanteNavigationForNavMobile.map((item) => (
                   <a
                     key={item.name}
                     href={item.href}
-                    className="-m-3 flex items-center rounded-md p-3 hover:bg-gradient-to-br from-neutral-900 to-neutral-950"
+                    className="-m-3 flex items-center rounded-md p-3"
                   >
                     <item.icon
                       className="h-6 w-6 bg- flex-shrink-0 text-[#ff4200]"
                       aria-hidden="true"
                     />
-                    <span className="ml-3 body-2 text-n-1">
-                      {item.name}
-                    </span>
+                    <span className="ml-3 body-2 text-n-1">{item.name}</span>
                   </a>
                 ))}
               </nav>
@@ -60,40 +63,21 @@ export default function ResponsiveNavbar() {
           </div>
           <div className="space-y-6 py-6 px-5">
             <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-              <Link
-                to="/about"
-                className="body-2 text-n-1 hover:text-white"
-              >
+              <Link to="/about" className="body-2 text-n-1 hover:text-white">
+                Home
+              </Link>
+              <Link to="/blog" className="body-2 text-n-1 hover:text-white">
                 About
               </Link>
-
-              <Link
-                to="/blog"
-                className="body-2 text-n-1 hover:text-white"
-              >
-                Blog
+              <Link to="/blog" className="body-2 text-n-1 hover:text-white">
+                Resources
               </Link>
-              {forCompaniesNavigation.map((item) => (
-                <Link
-                  key={item.name}
-                  to={item.href}
-                  className="body-2 text-n-1 hover:text-white"
-                >
-                  {item.name}
-                </Link>
-              ))}
-              {forTalentsNavigation.map((item) => (
-                <Link
-                  key={item.name}
-                  to={item.href}
-                  className="body-2 text-n-1 hover:text-white"
-                >
-                  {item.name}
-                </Link>
-              ))}
             </div>
             <div>
-              <SimpleButton text="Embark with us" className="bg-gradient-to-br from-color-9 to-[#ff8000] text-n-1 w-full flex justify-center" />
+              <SimpleButton
+                text="Embark with us"
+                className="bg-gradient-to-br from-color-9 to-[#ff8000] text-n-1 w-full flex justify-center"
+              />
             </div>
           </div>
         </div>

@@ -34,9 +34,9 @@ const HeroSection = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative pt-[3.5rem] z-1 max-w-6xl mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Guidance, Pragmatism, Discipline &nbsp;The&nbsp; Path to{" "}
+            Accelerate{" "}
             <span className="inline-block relative">
-              Excellence
+              10.000
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -45,10 +45,12 @@ const HeroSection = () => {
                 alt="Curve"
               />
             </span>{" "}
+            Careers in tech For Young Moroccans By 2027
           </h1>
-          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            We want to see our youth become active contributors to the tech
-            industry at both national and international levels.
+          <p className="body-1 max-w-2xl mx-auto mb-6 text-n-2 lg:mb-8">
+            Activating Youth Potential through Tech Skills, Strategic Matches,
+            and Career Management for National and Global Industry
+            Contributions. Data&nbsp;( Insertion rate, Alumnis, partners)&nbsp;.
           </p>
           <Stats />
         </div>
@@ -62,7 +64,11 @@ const HeroSection = () => {
               className="w-16 h-16 flex justify-center items-center rounded-full bg-n-4/50 backdrop-blur-lg absolute z-[10] bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-all duration-300"
             >
               <span className="font-medium cursor-default text-gray-100 text-sm">
-                {isMuted ? <FaVolumeOff className="w-5 h-5" /> : <FaVolumeHigh className="w-5 h-5"  />}
+                {isMuted ? (
+                  <FaVolumeOff className="w-5 h-5" />
+                ) : (
+                  <FaVolumeHigh className="w-5 h-5" />
+                )}
               </span>
             </div>
             <div

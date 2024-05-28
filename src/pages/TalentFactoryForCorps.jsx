@@ -5,7 +5,7 @@ import ChallengesAndSolutions from "../components/pages/talent-factory/Challenge
 import HeroSection from "../components/pages/talent-factory/HeroSection";
 import Outcomes from "../components/pages/talent-factory/Outcomes";
 
-function TalentFactory() {
+const TalentFactoryForCorps = () => {
   return (
     <>
       <HeroSection />
@@ -16,6 +16,6 @@ function TalentFactory() {
       <Footer />
     </>
   );
-}
+};
 
-export default TalentFactory;
+export default TalentFactoryForCorps;

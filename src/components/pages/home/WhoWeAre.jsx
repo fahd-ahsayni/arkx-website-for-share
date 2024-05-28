@@ -20,9 +20,7 @@ const WhoWeAre = () => {
           <div className="relative bg-gradient-to-b from-n-8/0 to-n-8/90 z-5 flex items-center h-full" />
           <div className="relative bg-gradient-to-b from-n-8/20 to-n-8/90 z-1 flex items-center h-[30rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[30rem]">
             <div className="absolute top-0 left-0 h-1/2 md:h-full pointer-events-none md:w-1/2 w-full z-1">
-              <Suspense fallback={null}>
-                <CardTwo />
-              </Suspense>
+              <CardTwo />
             </div>
 
             <div className="relative z-2 max-w-[25rem] md:ml-auto mt-auto">
@@ -39,9 +37,7 @@ const WhoWeAre = () => {
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
             <div className="relative min-h-[30rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute w-full h-1/2 z-5">
-                <Suspense fallback={null}>
-                  <CardOne />
-                </Suspense>
+                <CardOne />
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
@@ -69,9 +65,7 @@ const WhoWeAre = () => {
               </div>
 
               <div className="relative h-[20rem] rounded-xl overflow-hidden md:h-[25rem]">
-                <Suspense fallback={null}>
-                  <CardThree />
-                </Suspense>
+                <CardThree />
               </div>
             </div>
           </div>
