@@ -14,12 +14,12 @@ const Cta = () => {
         <div className="relative isolate overflow-hidden px-6 text-center shadow-2xl sm:rounded-3xl sm:px-16">
           <div className="w-full flex justify-center">
             <Heading
-              title="Boost your productivity today."
-              text="Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur commodo do ea."
+              title="Join Our Community"
+              text="Become part of our Guild where innovation meets opportunity. Connect, hire, learn, and grow with individuals passionate about tech."
             />
           </div>
           <div className="flex items-center justify-center gap-x-6">
-            <SimpleButton text="Get started" />
+            <SimpleButton text="Ready to take the next step? Join us today!" />
           </div>
         </div>
       </div>

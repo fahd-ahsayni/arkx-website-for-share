@@ -8,7 +8,7 @@ import imgJobintechSection from "./assets/image03.webp";
 const AboutUsSection = () => {
   return (
     <Section crosses>
-      <div className="relative overflow-hidden pb-32">
+      <div className="relative overflow-hidden pb-12">
         <div className="relative">
           <div className="lg:mx-auto lg:grid lg:container lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
             <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
@@ -16,10 +16,10 @@ const AboutUsSection = () => {
                 <div className="mt-6">
                   <Heading title="Ark-x: Catalyst for the Digital Ecosystem" />
                   <p className="body-2 text-n-2 md:-mt-12 -mt-6">
-                    ARK-X Talent Factory is more than just a training center; it
+                    Ark-x Talent Factory is more than just a training center; it
                     is a comprehensive talent development pathway. From
                     awareness to placement, including orientation, training, and
-                    assessment, ARK-X Talent Factory offers a full spectrum of
+                    assessment, Ark-x Talent Factory offers a full spectrum of
                     support centered on talent. Our upskilling and reskilling
                     programs target high-demand tech careers, aiming to unlock
                     the potential of Morocco's digital economy through the

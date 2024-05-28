@@ -109,7 +109,7 @@ export default {
             {},
         },
         ".body-2": {
-          "@apply font-light text-[0.875rem] leading-6 md:text-base": {},
+          "@apply font-light text-[0.875rem]  md:text-lg leading-6": {},
         },
         ".caption": {
           "@apply text-sm": {},

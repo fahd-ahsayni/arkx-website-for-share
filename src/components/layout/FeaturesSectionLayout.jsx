@@ -6,7 +6,8 @@ const FeaturesSectionLayout = ({ data, title, text, children, tag }) => (
     <div className="container mx-auto flex md:flex-row flex-col sm:py-16 py-6">
       <div className="flex-1 flex justify-start items-start max-w-7xl mx-auto flex-col">
         <p className="body-1 font-semibold text-color-9 capitalize">{tag}</p>
-        <Heading title={title} text={text} />
+        <Heading title={title} />
+        <p className="body-2 text-n-2 md:pr-8 md:-mt-12 -mt-4">{text}</p>
         {children}
       </div>
 

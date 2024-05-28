@@ -5,18 +5,13 @@ import {
   benefitIcon3,
   benefitIcon4,
   html,
-  discordBlack,
-  facebook,
   java,
   angular,
-  instagram,
   mongodb,
   mySql,
   react,
   tailwindcss,
   javaScript,
-  telegram,
-  twitter,
   mnc,
   royaume,
   gouverment,
@@ -35,6 +30,13 @@ import {
   zaineb,
 } from "../assets";
 
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaYoutube,
+} from "react-icons/fa6";
+
 // Stats array containing various statistics about the project
 export const stats = [
   {
@@ -43,14 +45,14 @@ export const stats = [
     value: "87%+",
   },
   {
-    id: "stats-1",
-    title: "Alumnis",
-    value: "600+",
-  },
-  {
     id: "stats-2",
     title: "Initiated to coding",
     value: "1000+",
+  },
+  {
+    id: "stats-1",
+    title: "Alumnis",
+    value: "600+",
   },
 ];
 
@@ -217,33 +219,27 @@ export const talentJourney = [
 export const socials = [
   {
     id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
+    title: "Linkedin",
+    icon: FaLinkedin,
+    url: "https://www.linkedin.com/company/arkx-education",
   },
   {
     id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
+    title: "facebook",
+    icon: FaFacebook,
+    url: "https://www.facebook.com/ARKxacademy",
   },
   {
     id: "2",
     title: "Instagram",
-    iconUrl: instagram,
-    url: "#",
+    icon: FaInstagram,
+    url: "https://www.instagram.com/arkx_official/",
   },
   {
     id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
+    title: "youtube",
+    icon: FaYoutube,
+    url: "https://www.youtube.com/@ARKXEducation",
   },
 ];
 

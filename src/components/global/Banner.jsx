@@ -1,26 +1,34 @@
-import { MegaphoneIcon } from "@heroicons/react/24/outline";
+import { GradientOne, GradientTwo } from "../design/Hero";
 
-export default function Banner() {
+const Banner = () => {
   return (
-    <div className="bg-neutral-900">
-      <div className="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
-        <div className="flex flex-wrap items-center justify-between">
-          <div className="flex w-0 flex-1 items-center">
-            <span className="flex rounded-lg bg-neutral-800 p-2">
-              <MegaphoneIcon
-                className="h-6 w-6 text-white"
-                aria-hidden="true"
-              />
-            </span>
-            <p className="ml-3 body-2">
-              <span className="md:hidden">We announced a new product!</span>
-              <span className="hidden md:inline">
-                Big news! We're excited to announce a brand new product.
-              </span>
-            </p>
-          </div>
-        </div>
+    <div className="relative isolate flex items-center gap-x-6 overflow-hidden bg-neutral-950 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
+      <GradientOne />
+      <GradientTwo />
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+        <p className="body-2">
+          We’re thrilled to announce that Ark-x will be participating in GITEX
+          AFRICA!
+          <svg
+            viewBox="0 0 2 2"
+            className="mx-2 inline h-0.5 w-0.5 fill-current"
+            aria-hidden="true"
+          >
+            <circle cx={1} cy={1} r={1} />
+          </svg>
+          <strong className="font-semibold">Booth Number: 5D-40</strong>
+          <svg
+            viewBox="0 0 2 2"
+            className="mx-2 inline h-0.5 w-0.5 fill-current"
+            aria-hidden="true"
+          >
+            <circle cx={1} cy={1} r={1} />
+          </svg>
+        </p>
       </div>
+      <div className="flex flex-1 justify-end"></div>
     </div>
   );
-}
+};
+
+export default Banner;

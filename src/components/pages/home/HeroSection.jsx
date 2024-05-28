@@ -7,34 +7,12 @@ import { BottomLine, GradientOne, GradientTwo } from "../../design/Hero";
 import Stats from "../../global/Stats";
 import InitiativeSupportedBy from "./InitiativeSupportedBy";
 import Section from "../../global/Section";
+import { FaVolumeHigh, FaVolumeOff } from "react-icons/fa6";
 
 const HeroSection = () => {
   const parallaxRef = useRef(null);
-  const cursorRef = useRef(null);
   const videoCardRef = useRef(null);
   const [isMuted, setIsMuted] = useState(true);
-
-  useEffect(() => {
-    const cursor = cursorRef.current;
-
-    const handleMouseMove = (e) => {
-      gsap.to(cursor, {
-        x: e.x - 480,
-        y: e.y + 60,
-        duration: 1,
-        ease: "back.out",
-      });
-    };
-
-    document.documentElement.addEventListener("mousemove", handleMouseMove);
-
-    return () => {
-      document.documentElement.removeEventListener(
-        "mousemove",
-        handleMouseMove
-      );
-    };
-  }, []);
 
   useGSAP(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -76,21 +54,20 @@ const HeroSection = () => {
         </div>
         <div
           ref={videoCardRef}
-          className="relative z-[30] max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24"
+          className="relative group z-[30] max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24"
         >
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient overflow-hidden">
             <div
-              ref={cursorRef}
               onClick={() => setIsMuted(!isMuted)}
-              className="w-16 h-16 flex justify-center items-center rounded-full bg-n-4/50 backdrop-blur-lg absolute -top-1/2 z-[10]"
+              className="w-16 h-16 flex justify-center items-center rounded-full bg-n-4/50 backdrop-blur-lg absolute z-[10] bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-all duration-300"
             >
               <span className="font-medium cursor-default text-gray-100 text-sm">
-                {isMuted ? "Muted" : "Sound"}
+                {isMuted ? <FaVolumeOff className="w-5 h-5" /> : <FaVolumeHigh className="w-5 h-5"  />}
               </span>
             </div>
             <div
               onClick={() => setIsMuted(!isMuted)}
-              className="relative overflow-hidden bg-neutral-950 rounded-[1rem]"
+              className="relative group overflow-hidden bg-neutral-950 rounded-[1rem]"
             >
               <video
                 autoPlay
@@ -99,7 +76,7 @@ const HeroSection = () => {
                 className="w-full scale-[1.7] md:scale-[1]"
               >
                 <source
-                  src="https://dl.dropboxusercontent.com/scl/fi/yp9s1t1xvzizrrwediofh/0516-1.mp4?rlkey=muftbt8yvkjjb3z479k83ma9a&st=6y5gqna9&dl=0"
+                  src="https://dl.dropboxusercontent.com/scl/fi/2ikokc65yp7ezf0r0l3se/team-builing-480.mp4?rlkey=31s52vqj2azxep7c0zj3kxl7s&st=378phpdv&dl=0"
                   type="video/mp4"
                 />
               </video>
@@ -113,7 +90,6 @@ const HeroSection = () => {
         </div>
         <InitiativeSupportedBy className="mt-6" />
       </div>
-      <GradientTwo />
       <BottomLine />
     </Section>
   );

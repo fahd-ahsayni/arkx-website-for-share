@@ -6,7 +6,6 @@ import {
   Transition,
   TransitionChild,
 } from "@headlessui/react";
-import { CheckIcon } from "@heroicons/react/24/outline";
 import { logoWihte } from "../../assets";
 
 const Modal = () => {
@@ -69,16 +68,16 @@ const Modal = () => {
                       type="button"
                       className="inline-flex w-full justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:text-sm"
                     >
-                      Go back to website
+                      I want to hire Talent
                     </button>
                   </div>
-                  <div className="mt-8 sm:mt-8">
+                  <div className="mt-2 sm:mt-2">
                     <button
                       type="button"
                       className="inline-flex w-full justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:text-sm"
                       onClick={() => setOpen(false)}
                     >
-                      Go back to website
+                      I want to join the JobInTech bootcamp
                     </button>
                   </div>
                 </DialogPanel>
