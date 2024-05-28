@@ -14,7 +14,7 @@ import HireTalent from "./pages/forms/HireTalent";
 const App = () => {
   return (
     <>
-      <header className="w-full">
+      <header className="w-full fixed left-0 top-0 z-[9999]">
         <Banner />
         <Navbar />
       </header>

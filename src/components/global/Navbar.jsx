@@ -13,7 +13,7 @@ const Navbar = () => {
   const path = location.pathname;
 
   return (
-    <Popover className="relative border-b border-b-n-2/20 bg-black z-[40] w-full shadow-2xl">
+    <Popover className="border-b border-b-n-2/20 bg-black z-[40] w-full shadow-2xl">
       <div className="mx-auto container px-6">
         <div className="flex items-center justify-between py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
