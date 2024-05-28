@@ -4,7 +4,7 @@ import Section from "../../global/Section";
 const ContactUs = () => {
   return (
     <Section crosses>
-      <div className="mx-auto -my-20 container px-6 lg:flex lg:items-center lg:px-12">
+      <div className="mx-auto md:-my-20 container px-6 lg:flex lg:items-center lg:px-12">
         <div className="lg:w-0 lg:flex-1">
           <Heading
             title="Contact Us"

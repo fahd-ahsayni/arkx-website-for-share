@@ -63,7 +63,7 @@ export default function HeroSection() {
               </p>
             </div>
           </div>
-          <Stats />
+          <Stats justifyStart index={1} />
         </div>
       </div>
       <GradientTwo />
