@@ -65,7 +65,7 @@ const Modal = () => {
                       </div>
                     </div>
                   </div>
-                  <Link href="/form/hire-talents">
+                  <Link to="/form/hire-talents">
                     <div className="mt-5 sm:mt-6 bg-indigo-600 px-4 py-2 rounded-md bg-origin-border justify-center items-center">
                       <span className="inline-flex body-2 font-semibold border border-transparent text-white capitalize w-full items-center justify-center">
                         For institutionnels or businesses
