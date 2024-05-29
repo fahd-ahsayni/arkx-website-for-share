@@ -1,4 +1,4 @@
-import SimpleButton from "../../elements/SimpleButton";
+import img01 from "./assets/img01.webp";
 
 const HeroSection = () => {
   return (
@@ -6,7 +6,7 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         <img
           className="h-full w-full object-cover brightness-50"
-          src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100"
+          src={img01}
           alt=""
         />
         <div

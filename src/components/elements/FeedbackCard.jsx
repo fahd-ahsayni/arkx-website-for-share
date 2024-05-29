@@ -10,7 +10,7 @@ const FeedbackCard = ({ content, name, title, img }) => (
     <p className="body-2 text-n-2 my-10">{content}</p>
 
     <div className="flex flex-row">
-      <img src={img} alt={name} className="w-[48px] h-[48px] rounded-full" />
+      {/* <img src={img} alt={name} className="w-[48px] h-[48px] rounded-full" /> */}
       <div className="flex flex-col ml-4">
         <h4 className="body-2 text-white">{name}</h4>
         <p className="body-2 text-n-2">{title}</p>

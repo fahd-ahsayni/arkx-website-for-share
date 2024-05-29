@@ -1,10 +1,37 @@
 import Section from "./Section";
 import { socials } from "../../constants";
+import { Link } from "react-router-dom";
+
+const links = [
+  { name: "About", href: "/about" },
+  { name: "Hire mid to senior level vetted talents", href: "/talent-agency" },
+  {
+    name: "Hire job ready entry level talents",
+    href: "/talent-factory-for-corps",
+  },
+  {
+    name: "For Government & NGOs",
+    href: "/talent-factory-for-institutionnels",
+  },
+  { name: "Resources", href: "/resources" },
+];
 
 const Footer = () => {
   return (
-    <Section crosses className="!px-0 !py-10 z-50">
-      <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
+    <Section crosses className="lg:!px-10 !px-0 !py-10 z-50">
+      <nav
+        className="border-b px-6 border-b-n-2/30 columns-2 sm:flex sm:justify-center sm:space-x-12"
+        aria-label="Footer"
+      >
+        {links.map((item) => (
+          <div key={item.name} className="pb-8">
+            <Link to={item.href} className="body-2 text-n-2">
+              {item.name}
+            </Link>
+          </div>
+        ))}
+      </nav>
+      <div className="container pt-8 flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
         <p className="caption text-n-4 lg:block">
           © {new Date().getFullYear()}. All rights reserved.
         </p>

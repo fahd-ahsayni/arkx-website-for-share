@@ -27,7 +27,6 @@ const JoinUs = () => {
                 >
                   <div className="p-8 sm:p-10">
                     <h3 className="h4">{item.name}</h3>
-                    <p className="mt-6 body-2 text-n-2">{item.description}</p>
                   </div>
                   <div className="flex flex-1 flex-col p-2">
                     <div className="flex flex-1 flex-col justify-between rounded-2xl bg-neutral-900 p-6 sm:p-8">

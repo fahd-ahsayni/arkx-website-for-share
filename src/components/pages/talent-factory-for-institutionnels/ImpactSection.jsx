@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Heading from "../../elements/Heading";
 import Section from "../../global/Section";
 import Stats from "../../global/Stats";
@@ -22,6 +23,15 @@ const ImpactSection = () => {
                   agility, efficiency, and constant innovation of 'Bootcamps'
                   approaches.
                 </p>
+                <div className="mt-12">
+                  <a
+                    target="_blank"
+                    href="/form/hire-talents"
+                    className="inline-flex mt-8 body-2 rounded-md border border-transparent bg-gradient-to-br from-color-9 to-[#ff8000] bg-origin-border px-4 py-2 text-white uppercase"
+                  >
+                    Keep exploring
+                  </a>
+                </div>
               </div>
             </div>
             <div className="relative lg:col-span-2 z-1 p-2 rounded-2xl bg-conic-gradien overflow-hidden">

@@ -20,17 +20,10 @@ const Testimonials = () => {
         <div className="flex mt-8 justify-center items-center space-x-8">
           <a
             target="_blank"
-            href="https://forms.zohopublic.com/digital29/form/EmbarkWithUsv21/formperma/frTXXSqYrKMp9aNz_Xny5mo-p_peFHQCDUwR1i_NFyQ"
+            href="/form/hire-talents"
             className="inline-flex items-center rounded px-4 py-2 shadow-sm focus:outline-none body-1 uppercase text-sm tracking-wide bg-gradient-to-br from-color-9 to-[#ff8000] border border-n-2/30"
           >
             Embark with us
-          </a>
-          <a
-            target="_blank"
-            href="https://forms.zohopublic.com/digital29/form/Hiretalent/formperma/IvZdiDYgOE_auqAdsrO1LtSyM_j3fFeBVRLGbc_Da9M"
-            className="body-1 text-sm tracking-wider space-x-2 uppercase text-white"
-          >
-            <span>Hire</span> <span aria-hidden="true">→</span>
           </a>
         </div>
       </div>

@@ -6,8 +6,6 @@ import {
   HandThumbUpIcon,
   UserGroupIcon,
 } from "@heroicons/react/24/solid";
-import { roadmap1, roadmap2, roadmap3, roadmap4 } from "../assets";
-import { cardSvg1, cardSvg2, cardSvg3 } from "../../../../assets";
 
 const uniqueSellingProposition = [
   {
@@ -34,25 +32,21 @@ const howItWorks = [
     id: "0",
     title: "Sign Up",
     text: "Join our platform and tell us what you need.",
-    imageUrl: roadmap1,
   },
   {
     id: "1",
     title: "Match",
     text: "We match you with the best-vetted tech talent.",
-    imageUrl: roadmap2,
   },
   {
     id: "2",
     title: "Collaborate",
     text: "Work together seamlessly with continuous support.",
-    imageUrl: roadmap3,
   },
   {
     id: "3",
     title: "Grow",
     text: "Achieve your goals with the right team in place.",
-    imageUrl: roadmap4,
   },
 ];
 

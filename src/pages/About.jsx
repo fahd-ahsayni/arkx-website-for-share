@@ -10,7 +10,7 @@ export default function About() {
       <HeroSection />
       <Team />
       {/* <WordFromCEO /> */}
-      <Cta />
+      {/* <Cta /> */}
       {/* <Faqs /> */}
       <Footer />
     </>

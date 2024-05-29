@@ -2,13 +2,13 @@ import Section from "../../global/Section";
 import Heading from "../../elements/Heading";
 import SimpleButton from "../../elements/SimpleButton";
 import { ScrollParallax } from "react-just-parallax";
-import imgArkxSection from "./assets/image02.webp";
-import imgJobintechSection from "./assets/image03.webp";
+import imgArkxSection from "./assets/img02.webp";
+import imgJobintechSection from "./assets/img01.webp";
 
 const AboutUsSection = () => {
   return (
     <Section crosses>
-      <div className="relative overflow-hidden pb-12">
+      <div className="relative overflow-hidden">
         <div className="relative">
           <div className="lg:mx-auto lg:grid lg:container lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
             <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:px-0">
@@ -25,9 +25,9 @@ const AboutUsSection = () => {
                     the potential of Morocco's digital economy through the
                     extensive upgrading of "job-ready" IT talents.
                   </p>
-                  <div className="mt-6">
+                  {/* <div className="mt-6">
                     <SimpleButton text="Get Started" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -44,7 +44,7 @@ const AboutUsSection = () => {
         </div>
         <div>
           <div className="lg:mx-auto lg:grid lg:container lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
-            <div className="mx-auto max-w-xl px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0">
+            <div className="mx-auto max-w-xl px-6 lg:col-start-2 lg:mx-0 lg:max-w-none  lg:px-0">
               <div>
                 <div className="mt-6">
                   <Heading title="Jobintech: Driving Digital Competitiveness in Morocco" />
@@ -61,9 +61,9 @@ const AboutUsSection = () => {
                     opportunity for thousands of young people to enhance their
                     employability and build high-potential careers.
                   </p>
-                  <div className="mt-6">
+                  {/* <div className="mt-6">
                     <SimpleButton text="Get Started" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
