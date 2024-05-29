@@ -101,7 +101,7 @@ const solutions = [
 const joinUs = [
   {
     name: "For Freelancers",
-    href: "#",
+    href: "/form/hire-freelancers",
     description:
       "Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis.",
     features: [
@@ -112,7 +112,7 @@ const joinUs = [
   },
   {
     name: "For Companies",
-    href: "#",
+    href: "/form/hire-talents",
     description:
       "Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis.",
     features: [

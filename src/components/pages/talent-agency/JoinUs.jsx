@@ -47,6 +47,7 @@ const JoinUs = () => {
                       </ul>
                       <div className="mt-8">
                         <a
+                          target="_blank"
                           href={item.href}
                           className="inline-block w-full rounded-lg bg-gradient-to-br from-color-9 to-[#ff8000] px-4 py-2.5 text-center body-2 uppercase leading-5 text-white shadow-md hover:bg-indigo-700"
                         >

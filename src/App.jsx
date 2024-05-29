@@ -10,6 +10,7 @@ import TalentAgency from "./pages/TalentAgency";
 import TalentFactoryForCorps from "./pages/TalentFactoryForCorps";
 import TalentFactoryForInstitutionnels from "./pages/TalentFactoryForInstitutionnels";
 import HireTalent from "./pages/forms/HireTalent";
+import ForFreelance from "./pages/forms/ForFreelance";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/resources" element={<Resources />} />
           <Route path="/talent-agency" element={<TalentAgency />} />
           <Route path="/form/hire-talents" element={<HireTalent />} />
+          <Route path="/form/hire-freelancers" element={<ForFreelance />} />
           <Route
             path="/talent-factory-for-corps"
             element={<TalentFactoryForCorps />}
