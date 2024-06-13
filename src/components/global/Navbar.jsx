@@ -48,7 +48,7 @@ const Navbar = () => {
               For Government & NGOs
             </Link>
             {/* <ForInstitutionnels /> */}
-            <ForTalents />
+            {/* <ForTalents /> */}
             <Link
               to="/resources"
               className={`body-2 hover:text-white transition-colors ${
