@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { img01, img02, img03, img04, img05 } from "../../../assets";
 import { GradientThree } from "../../design/Hero";
 import Heading from "../../elements/Heading";
-import SimpleButton from "../../elements/SimpleButton";
 import Section from "../../global/Section";
 
 const ArkxJobintech = () => {

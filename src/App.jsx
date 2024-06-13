@@ -11,6 +11,7 @@ import TalentFactoryForCorps from "./pages/TalentFactoryForCorps";
 import TalentFactoryForInstitutionnels from "./pages/TalentFactoryForInstitutionnels";
 import HireTalent from "./pages/forms/HireTalent";
 import ForFreelance from "./pages/forms/ForFreelance";
+import TalentFactoryForCondidates from "./pages/TalentFactoryForCondidates";
 
 const App = () => {
   return (
@@ -34,6 +35,10 @@ const App = () => {
           <Route
             path="/talent-factory-for-institutionnels"
             element={<TalentFactoryForInstitutionnels />}
+          />
+          <Route
+            path="/talent-factory-for-condidates"
+            element={<TalentFactoryForCondidates />}
           />
           {blogPages.map(({ path, element }, key) => (
             <Route key={key} path={path} element={element} />

@@ -1,5 +1,5 @@
 
-const Heading = ({ className, title, text, tag }) => {
+const Heading = ({ className, title, text }) => {
   return (
     <div
       className={`${className} max-w-5xl mb-12 lg:mb-20`}

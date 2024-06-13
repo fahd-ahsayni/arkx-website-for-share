@@ -1,18 +1,12 @@
 import { PopoverButton, PopoverPanel, Transition } from "@headlessui/react";
-import {
-  forCompaniesNavigation,
-  forTalentsNavigation,
-  importanteNavigationForNavMobile,
-  whyArkxNavigation,
-} from ".";
+import { importanteNavigationForNavMobile } from "./index";
 import { Fragment } from "react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { logoWihte } from "../../../assets";
-import SimpleButton from "../../elements/SimpleButton";
 import { Link } from "react-router-dom";
 import Modal from "../Modal";
 
-export default function ResponsiveNavbar() {
+const ResponsiveNavbar = () => {
   return (
     <Transition
       as={Fragment}
@@ -70,7 +64,10 @@ export default function ResponsiveNavbar() {
               <Link to="/about" className="body-2 text-n-1 hover:text-white">
                 About
               </Link>
-              <Link to="/resources" className="body-2 text-n-1 hover:text-white">
+              <Link
+                to="/resources"
+                className="body-2 text-n-1 hover:text-white"
+              >
                 Resources
               </Link>
             </div>
@@ -82,4 +79,6 @@ export default function ResponsiveNavbar() {
       </PopoverPanel>
     </Transition>
   );
-}
+};
+
+export default ResponsiveNavbar;

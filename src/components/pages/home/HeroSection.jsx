@@ -26,17 +26,16 @@ const HeroSection = () => {
   });
 
   return (
-    <Section
-      className="pb-[1rem] md:-mt-[5.25rem] -mt-[8.25rem]"
-      id="hero"
-    >
+    <Section className="pb-[1rem] md:-mt-[5.25rem] -mt-[8.25rem]" id="hero">
       <GradientOne />
       <div className="container relative" ref={parallaxRef}>
         <div className="relative pt-[3.5rem] z-1 max-w-6xl mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
             Accelerate{" "}
             <span className="inline-block relative">
-              10.000
+              <span className="bg-gradient-to-br from-color-9 to-[#ff8000] bg-clip-text text-transparent">
+                10.000
+              </span>
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"

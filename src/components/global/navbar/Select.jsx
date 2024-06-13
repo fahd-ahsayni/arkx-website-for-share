@@ -5,7 +5,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Select({text, open }) {
+const Select = ({ text, open }) => {
   return (
     <PopoverButton
       className={classNames(
@@ -15,9 +15,14 @@ export default function Select({text, open }) {
     >
       <span>{text}</span>
       <ChevronDownIcon
-        className={classNames(open ? "text-white" : "text-n-2", "ml-2 h-5 w-5 transition-colors")}
+        className={classNames(
+          open ? "text-white" : "text-n-2",
+          "ml-2 h-5 w-5 transition-colors"
+        )}
         aria-hidden="true"
       />
     </PopoverButton>
   );
-}
+};
+
+export default Select;

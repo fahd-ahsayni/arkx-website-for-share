@@ -4,7 +4,7 @@ import Select from "./Select";
 import SelectLayout from "./SelectLayout";
 import { Link } from "react-router-dom";
 
-export default function ForTalents() {
+const ForTalents = () => {
   return (
     <Popover className="relative">
       {({ open }) => (
@@ -34,4 +34,6 @@ export default function ForTalents() {
       )}
     </Popover>
   );
-}
+};
+
+export default ForTalents;

@@ -1,10 +1,10 @@
 import { Popover } from "@headlessui/react";
-import { callsToAction, forCompaniesNavigation } from "./index";
+import { forCompaniesNavigation } from "./index";
 import Select from "./Select";
 import SelectLayout from "./SelectLayout";
 import { Link } from "react-router-dom";
 
-export default function ForCompanies() {
+const ForCompanies = () => {
   return (
     <Popover className="relative">
       {({ open }) => (
@@ -34,4 +34,6 @@ export default function ForCompanies() {
       )}
     </Popover>
   );
-}
+};
+
+export default ForCompanies;

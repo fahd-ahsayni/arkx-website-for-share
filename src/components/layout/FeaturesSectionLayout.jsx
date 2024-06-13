@@ -10,7 +10,6 @@ const FeaturesSectionLayout = ({ data, title, text, children, tag }) => (
         <p className="body-2 text-n-2 md:pr-8 md:-mt-12 -mt-4">{text}</p>
         {children}
       </div>
-
       <div className="flex-1 rounded-3xl flex md:ml-10 ml-0 md:mt-0 mt-10 relative flex-col">
         {data.map(({ name, description, icon, iconBackground }, index) => (
           <FeatureCard

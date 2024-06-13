@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { PopoverPanel, Transition } from "@headlessui/react";
 
-export default function SelectLayout({ children }) {
+const SelectLayout = ({ children }) => {
   return (
     <Transition
       as={Fragment}
@@ -19,4 +19,6 @@ export default function SelectLayout({ children }) {
       </PopoverPanel>
     </Transition>
   );
-}
+};
+
+export default SelectLayout;

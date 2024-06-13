@@ -5,7 +5,7 @@ import { logoWihte } from "../../assets";
 import { Link, useLocation } from "react-router-dom";
 import ForCompanies from "./navbar/ForCompanies";
 import Modal from "./Modal";
-import ForInstitutionnels from "./navbar/ForInstitutionnels";
+import ForTalents from "./navbar/ForTalents";
 
 const Navbar = () => {
   const location = useLocation();
@@ -40,13 +40,15 @@ const Navbar = () => {
             <Link
               to="/talent-factory-for-institutionnels"
               className={`body-2 hover:text-white transition-colors ${
-                path == "/talent-factory-for-institutionnels" ? "text-white" : "text-n-2"
+                path == "/talent-factory-for-institutionnels"
+                  ? "text-white"
+                  : "text-n-2"
               }`}
             >
               For Government & NGOs
             </Link>
             {/* <ForInstitutionnels /> */}
-            {/* <ForTalents /> */}
+            <ForTalents />
             <Link
               to="/resources"
               className={`body-2 hover:text-white transition-colors ${
@@ -61,7 +63,6 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-
       <ResponsiveNavbar />
     </Popover>
   );

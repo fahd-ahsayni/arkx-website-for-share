@@ -1,8 +1,4 @@
-import {
-  BookmarkSquareIcon,
-  PhoneIcon,
-  PlayIcon,
-} from "@heroicons/react/24/outline";
+import { BookmarkSquareIcon } from "@heroicons/react/24/outline";
 
 export const importanteNavigationForNavMobile = [
   {
@@ -18,6 +14,11 @@ export const importanteNavigationForNavMobile = [
   {
     name: "For Government & NGOs",
     href: "/talent-factory-for-institutionnels",
+    icon: BookmarkSquareIcon,
+  },
+  {
+    name: "For Talents",
+    href: "/talent-factory-for-condidates",
     icon: BookmarkSquareIcon,
   },
 ];
@@ -51,29 +52,7 @@ export const forTalentsNavigation = [
     name: "Talent Factory for Candidates",
     description:
       "Join the Future Tech Learning Community to stay ahead with the latest advancements in technology and innovation.",
-    href: "/future-tech",
+    href: "/talent-factory-for-condidates",
     icon: BookmarkSquareIcon,
   },
-];
-
-export const whyArkxNavigation = [
-  {
-    name: "Events",
-    description:
-      "Participate in our events to network, learn, and discover the latest industry trends.",
-    href: "/events",
-    icon: BookmarkSquareIcon,
-  },
-  {
-    name: "Resources",
-    description:
-      "Explore our resources for comprehensive guides, tutorials, blogs, and case studies to enhance your knowledge and skills.",
-    href: "/resources",
-    icon: BookmarkSquareIcon,
-  },
-];
-
-export const callsToAction = [
-  { name: "Watch Demo", href: "#", icon: PlayIcon },
-  { name: "Contact Sales", href: "#", icon: PhoneIcon },
 ];
