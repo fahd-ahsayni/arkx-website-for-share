@@ -1,7 +1,5 @@
 import Section from "../../global/Section";
 import Heading from "../../elements/Heading";
-import SimpleButton from "../../elements/SimpleButton";
-import { ScrollParallax } from "react-just-parallax";
 import imgArkxSection from "./assets/img02.webp";
 import imgJobintechSection from "./assets/img01.webp";
 

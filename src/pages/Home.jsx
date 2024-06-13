@@ -5,7 +5,7 @@ import HeroSection from "../components/pages/home/HeroSection";
 import Press from "../components/pages/home/Press";
 import WhoWeAre from "../components/pages/home/WhoWeAre";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
@@ -18,4 +18,6 @@ export default function Home() {
       </div>
     </>
   );
-}
+};
+
+export default Home;

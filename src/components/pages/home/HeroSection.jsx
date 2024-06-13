@@ -1,9 +1,9 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import { curve } from "../../../assets";
-import { BottomLine, GradientOne, GradientTwo } from "../../design/Hero";
+import { BottomLine, GradientOne } from "../../design/Hero";
 import Stats from "../../global/Stats";
 import InitiativeSupportedBy from "./InitiativeSupportedBy";
 import Section from "../../global/Section";

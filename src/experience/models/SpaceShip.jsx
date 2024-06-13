@@ -1,6 +1,6 @@
 import { useGLTF } from "@react-three/drei";
 
-export default function SpaceShip(props) {
+const SpaceShip = (props) => {
   const { nodes, materials } = useGLTF("./models/spaceship.glb");
   return (
     <group {...props} dispose={null}>
@@ -11,6 +11,8 @@ export default function SpaceShip(props) {
       />
     </group>
   );
-}
+};
 
 useGLTF.preload("./models/spaceship.glb");
+
+export default SpaceShip;

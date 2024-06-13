@@ -3,7 +3,7 @@ import Heading from "../../elements/Heading";
 import Section from "../../global/Section";
 import Stats from "../../global/Stats";
 
-export default function HeroSection() {
+const HeroSection = () => {
   return (
     <Section className="pt-16 sm:pt-32 md:px-28 px-4">
       <GradientOne />
@@ -69,4 +69,6 @@ export default function HeroSection() {
       <GradientTwo />
     </Section>
   );
-}
+};
+
+export default HeroSection;

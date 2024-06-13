@@ -4,9 +4,9 @@ import {
   ServerIcon,
 } from "@heroicons/react/20/solid";
 import { ScrollParallax } from "react-just-parallax";
-import img01 from "../assets/images/case-study-intelcia/img-01.png";
-import img02 from "../assets/images/case-study-intelcia/img-02.png";
-import dIntelcia from "../assets/images/case-study-intelcia/di.png";
+import img01 from "../assets/images/img-01.webp";
+import img02 from "../assets/images/img-02.webp";
+import dIntelcia from "../assets/images/di.png";
 import Section from "../../../global/Section";
 import Heading from "../../../elements/Heading";
 import { GradientThree } from "../../../design/Hero";

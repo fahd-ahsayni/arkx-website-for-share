@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import SpaceShip from "../models/SpaceShip";
 import { Suspense } from "react";
 
-export default function CardThree() {
+const CardThree = () => {
   return (
     <>
       <Canvas>
@@ -22,4 +22,4 @@ export default function CardThree() {
       </Canvas>
     </>
   );
-}
+};

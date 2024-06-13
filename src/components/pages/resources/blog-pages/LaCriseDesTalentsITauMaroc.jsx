@@ -1,7 +1,7 @@
 import Heading from "../../../elements/Heading";
 import Footer from "../../../global/Footer";
 import Section from "../../../global/Section";
-import image01 from "../assets/images/image01.png";
+import image01 from "../assets/images/image01.webp";
 
 const LaCriseDesTalentsITauMaroc = () => {
   return (

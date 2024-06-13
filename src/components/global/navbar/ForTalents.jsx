@@ -1,5 +1,5 @@
 import { Popover } from "@headlessui/react";
-import { forTalentsNavigation } from "./index";
+import { forTalentsNavigation } from "./data/index";
 import Select from "./Select";
 import SelectLayout from "./SelectLayout";
 import { Link } from "react-router-dom";

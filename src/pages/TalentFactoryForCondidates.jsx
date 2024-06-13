@@ -1,11 +1,5 @@
-import React from 'react';
-
 const TalentFactoryForCondidates = () => {
-    return (
-        <div>
-            hh
-        </div>
-    );
-}
+  return <div></div>;
+};
 
 export default TalentFactoryForCondidates;

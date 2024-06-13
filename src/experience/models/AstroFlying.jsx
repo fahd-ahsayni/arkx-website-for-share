@@ -1,11 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
-import { useScroll, useSpring } from "framer-motion";
+import { useScroll } from "framer-motion";
 import { motion } from "framer-motion-3d";
 
-export function AstroFlying(props) {
+const AstroFlying = (props) => {
   const group = useRef();
   const { nodes, materials, animations } = useGLTF("./models/astro_flying.glb");
   const { actions } = useAnimations(animations, group);
@@ -15,15 +13,9 @@ export function AstroFlying(props) {
   }, []);
 
   const { scrollYProgress } = useScroll();
-  const smothScrollAnimationValue = useSpring(scrollYProgress);
 
   return (
-    <motion.group
-      scale={scrollYProgress}
-      ref={group}
-      {...props}
-      dispose={null}
-    >
+    <motion.group scale={scrollYProgress} ref={group} {...props} dispose={null}>
       <group name="Sketchfab_Scene">
         <group name="Sketchfab_model" rotation={[-Math.PI / 1.8, 0, 2]}>
           <group
@@ -67,6 +59,8 @@ export function AstroFlying(props) {
       </group>
     </motion.group>
   );
-}
+};
 
 useGLTF.preload("./models/astro_flying.glb");
+
+export default AstroFlying;

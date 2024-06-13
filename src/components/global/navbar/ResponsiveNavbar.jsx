@@ -1,5 +1,5 @@
 import { PopoverButton, PopoverPanel, Transition } from "@headlessui/react";
-import { importanteNavigationForNavMobile } from "./index";
+import { importanteNavigationForNavMobile } from "./data"
 import { Fragment } from "react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { logoWihte } from "../../../assets";

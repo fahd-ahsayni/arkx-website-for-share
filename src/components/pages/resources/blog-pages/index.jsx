@@ -1,4 +1,3 @@
-import Blog3 from "./Blog3";
 import LaCriseDesTalentsITauMaroc from "./LaCriseDesTalentsITauMaroc";
 import CaseStudyIntelcia from "./CaseStudyIntelcia";
 

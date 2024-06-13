@@ -7,6 +7,7 @@ import {
   UserGroupIcon,
 } from "@heroicons/react/24/solid";
 
+// Unique Selling Proposition Section
 const uniqueSellingProposition = [
   {
     name: "Rigorous Vetting Process",
@@ -27,6 +28,7 @@ const uniqueSellingProposition = [
   },
 ];
 
+// How It Works Section
 const howItWorks = [
   {
     id: "0",
@@ -50,6 +52,7 @@ const howItWorks = [
   },
 ];
 
+// Challenges Section
 const challenges = [
   {
     name: "Skill Gap",
@@ -74,6 +77,7 @@ const challenges = [
   },
 ];
 
+// Solutions Section
 const solutions = [
   {
     name: "Specialized Training",
@@ -98,12 +102,12 @@ const solutions = [
   },
 ];
 
+// Join Us Section
 const joinUs = [
   {
     name: "For Freelancers",
     href: "/form/hire-freelancers",
-    description:
-      "Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis.",
+    description: "...",
     features: [
       "Access to top-tier projects",
       "Continuous upskilling opportunities",
@@ -113,8 +117,7 @@ const joinUs = [
   {
     name: "For Companies",
     href: "/form/hire-talents",
-    description:
-      "Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis.",
+    description: "...",
     features: [
       "Access to vetted tech talent",
       "Seamless hiring process",

@@ -1,13 +1,9 @@
 import { Canvas } from "@react-three/fiber";
-import {
-  OrbitControls,
-  PresentationControls,
-  Sparkles,
-} from "@react-three/drei";
+import { OrbitControls, Sparkles } from "@react-three/drei";
 import { AstroFlying } from "../models/AstroFlying";
 import { Suspense } from "react";
 
-export default function CardTwo() {
+const CardTwo = () => {
   return (
     <Canvas>
       <OrbitControls makeDefault enableZoom={false} />
@@ -18,4 +14,6 @@ export default function CardTwo() {
       </Suspense>
     </Canvas>
   );
-}
+};
+
+export default CardTwo;

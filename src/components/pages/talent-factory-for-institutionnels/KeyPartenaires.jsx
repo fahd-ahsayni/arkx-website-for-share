@@ -1,12 +1,10 @@
 import { LeftLine, RightLine } from "../../design/LeftAndRightLine";
 import Heading from "../../elements/Heading";
 import Section from "../../global/Section";
-import {
-  partenaires01,
-  partenaires02,
-  partenaires03,
-  partenaires04,
-} from "./partenaires";
+import partenaires01 from "./assets/partenaires/partenaires01.jpg";
+import partenaires02 from "./assets/partenaires/partenaires02.jpg";
+import partenaires03 from "./assets/partenaires/partenaires03.jpg";
+import partenaires04 from "./assets/partenaires/partenaires04.jpg";
 
 const KeyPartenaires = () => {
   return (

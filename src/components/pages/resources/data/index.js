@@ -1,6 +1,5 @@
-import image01 from "./assets/images/image01.png";
-import image02 from "./assets/images/case-study-intelcia/img-02.png";
-import image03 from "./assets/images/image03.webp";
+import image01 from "../assets/images/image01.webp";
+import image02 from "../assets/images/img-02.webp";
 
 export const blogs = [
   {
